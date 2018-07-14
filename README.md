@@ -18,14 +18,15 @@ renders JavaScript for you!
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/python-nvd3-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/python-nvd3-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/python-nvd3-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/python-nvd3-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/python-nvd3-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/python-nvd3-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/python-nvd3-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/python-nvd3-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-nvd3/badges/version.svg)](https://anaconda.org/conda-forge/python-nvd3)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/python-nvd3/badges/downloads.svg)](https://anaconda.org/conda-forge/python-nvd3)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-python--nvd3-green.svg)](https://anaconda.org/conda-forge/python-nvd3) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/python-nvd3.svg)](https://anaconda.org/conda-forge/python-nvd3) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/python-nvd3.svg)](https://anaconda.org/conda-forge/python-nvd3) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/python-nvd3.svg)](https://anaconda.org/conda-forge/python-nvd3) |
 
 Installing python-nvd3
 ======================
