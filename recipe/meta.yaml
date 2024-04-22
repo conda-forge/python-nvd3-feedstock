@@ -1,6 +1,6 @@
 {% set name = "python-nvd3" %}
-{% set version = "0.15.0" %}
-{% set sha256 = "fbd75ff47e0ef255b4aa4f3a8b10dc8b4024aa5a9a7abed5b2406bd3cb817715" %}
+{% set version = "0.16.0" %}
+{% set sha256 = "0115887289b3f751716ddd05c7b53ac5f05e71201e52496decdac453a50dcf7e" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
 
 build:
   noarch: python
-  number: 2
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
   entry_points:
     - nvd3 = nvd3.NVD3Chart:_main
@@ -44,10 +44,10 @@ about:
   summary: 'Python NVD3 - Chart Library for d3.js'
 
   description: |
-      NVD3 is an attempt to build re-usable charts and chart components
-      for d3.js without taking away the power that d3.js offers you.
-      Python-NVD3 makes your life easy! You write Python and the library
-      renders JavaScript for you!
+    NVD3 is an attempt to build re-usable charts and chart components
+    for d3.js without taking away the power that d3.js offers you.
+    Python-NVD3 makes your life easy! You write Python and the library
+    renders JavaScript for you!
   doc_url: http://python-nvd3.readthedocs.io/en/latest
   dev_url: https://github.com/simplejson/simplejson
 
