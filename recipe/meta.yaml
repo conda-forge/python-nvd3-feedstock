@@ -44,7 +44,7 @@ about:
     Python-NVD3 makes your life easy! You write Python and the library
     renders JavaScript for you!
   doc_url: http://python-nvd3.readthedocs.io/en/latest
-  dev_url: https://github.com/simplejson/simplejson
+  dev_url: http://github.com/areski/python-nvd3
 
 extra:
   recipe-maintainers:
