@@ -9,7 +9,7 @@ Package license: MIT
 
 Summary: Python NVD3 - Chart Library for d3.js
 
-Development: https://github.com/simplejson/simplejson
+Development: http://github.com/areski/python-nvd3
 
 Documentation: http://python-nvd3.readthedocs.io/en/latest
 
